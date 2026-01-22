@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://www.alexangione.com/"
 languageCode: "en-us"
 title: "Alex Angione"
 theme: hugo-profile
@@ -128,9 +128,9 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: false
+      disableExperience: true 
       disableEducation: false
-      disableProjects: false
+      disableProjects: true
       disableAchievements: true 
       disableContact: false
 
