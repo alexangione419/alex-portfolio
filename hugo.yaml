@@ -150,7 +150,7 @@ params:
       name: "Resume"
       url: "https://angione-resume-bucket.s3.us-east-1.amazonaws.com/AngioneResume.pdf"
       download: true
-      newPage: false
+      newPage: true 
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -168,6 +168,17 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - company: "iReside"
+        companyUrl: https://www.ireside.ai 
+        jobs:
+         - name: "Contract Software Engineer"
+           date: "Nov 2025 - Dec 2025"
+           content: | 
+              - Served as a contract iOS developer and technical advisor on a residency tracking application (Swift, UIKit, Python) 
+              - Diagnosed and corrected data consistency issues, ensuring reliable synchronization across the frontend, caching layer, local database, and remote backup storage systems. 
+              - Prevented downstream production issues by stress-testing and validating machine-generated backend logic pre-launch. 
+
+
       - company: "GitMarks @ Northeastern"
         companyUrl: https://github.com/NUSpecialProjects/gitmarks
         jobs:
@@ -270,7 +281,10 @@ params:
     title: "Featured Projects"
     items:
       - title: Proxima
-        content: A location-centric iOS social platform designed around daily photo sharing, where users post once per day and discover nearby people through a proximity-based feed.
+        content: |
+          A location-centric iOS social platform designed around daily photo sharing, where users post once per day and discover nearby people through a proximity-based feed.
+        
+          Now live on the iOS App Store!
         image: /projects/ProximaIcon.png
         badges:
           - "Swift"
