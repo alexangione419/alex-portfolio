@@ -317,6 +317,16 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/siennaboos/PartyLoyaltyProject
+      - title: Alex's Conway's Game of Life 
+        content: My C++ implementation of Conway’s Game of Life built with SFML. Features real-time simulation, randomized grid generation, and interactive keyboard controls.
+        image: /projects/life.png
+        badges:
+          - "C++"
+          - "SFML"
+          - "CMake"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/alexangione419/life
 
   #Contact
   contact:
